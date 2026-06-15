@@ -7,7 +7,7 @@
 //  KONFIGURASI
 // ════════════════════════════════════════════════
 const USERS = {
-  admin: "aqua2024",
+  admin: "admin1234",
   operator: "monitor123",
 };
 
