@@ -463,7 +463,7 @@ function setRange(btn, range) {
 // ════════════════════════════════════════════════
 async function tick() {
   try {
-    const res = await fetch("http://192.168.100.79/data"); // ganti IP NodeMCU Anda
+    const res = await fetch("http://192.168.43.150/data"); // ganti IP NodeMCU Anda
     const json = await res.json();
     const reading = {
       ts: Date.now(),
